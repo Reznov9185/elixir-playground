@@ -4,7 +4,7 @@
 
 Installation guide [ASDF, Erlang, Elixir](https://gist.github.com/rubencaro/6a28138a40e629b06470)
 
-Trying this example from [Tensor Programming](https://youtu.be/R8CeZazrDHo) for Elixir.
+Trying this example from [Tensor Programming 1](https://youtu.be/R8CeZazrDHo) for Elixir.
 
 #### rectangle.ex
 
@@ -24,3 +24,17 @@ Try:
 send a, {:area, 5, 20} 
 send a, {:pmeter, 5, 20}
 ```
+
+#### Calculator.ex
+
+Ref: [Tensor Programming 2](https://youtu.be/s-kdNJ5jvAE)
+
+Start new project
+
+`mix new calculator`
+
+Start the service
+
+`iex -S mix`
+
+Write on: `lib/calculator.ex`
